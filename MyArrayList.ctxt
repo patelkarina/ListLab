@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MyArrayList()
+comment0.text=\n\ Constructor\ for\ the\ MyArrayList<E>\ class\ \n\ \n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment10.params=index\ obj
+comment10.target=void\ add(int,\ java.lang.Object)
+comment10.text=\n\ Inserts\ obj\ at\ position\ index,\ moving\ elements\ at\ position\ index\n\ and\ higher\ to\ the\ right\ and\ adjusts\ size\ \n\ @precondition\ 0\ <\=\ index\ <\=\ size\ \n\ @param\ index\ the\ index\ where\ we\ want\ to\ add\ the\ element\ to\ \n\ @param\ obj\ the\ value\ we\ want\ to\ add\ to\ the\ list\ \n
+comment2.params=
+comment2.target=void\ doubleCapacity()
+comment2.text=\n\ Doubles\ the\ size\ of\ an\ array\ with\ the\ previous\ elements\ copied\ \n\ into\ it\ \n\ @return\ the\ array\ with\ doubled\ size\ \n
+comment3.params=
+comment3.target=int\ getCapacity()
+comment3.text=\n\ Returns\ the\ length\ of\ the\ array\ \n\ @return\ the\ array\ length\ \n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\n\ Returns\ the\ size\ of\ the\ array\ \n\ @return\ size\ \n
+comment5.params=index
+comment5.target=java.lang.Object\ get(int)
+comment5.text=\n\ Retrieves\ the\ value\ at\ the\ specified\ index\ \n\ @param\ index\ the\ index\ where\ we\ want\ to\ find\ the\ value\ \n\ @return\ the\ value\ at\ the\ index\ \n
+comment6.params=index\ obj
+comment6.target=java.lang.Object\ set(int,\ java.lang.Object)
+comment6.text=\n\ Replaces\ the\ element\ at\ position\ index\ with\ obj\ \n\ @param\ index\ the\ index\ where\ we\ want\ to\ find\ the\ value\n\ @param\ obj\ the\ new\ value\ we\ want\ to\ replace\ the\ old\ value\ with\ \n\ @return\ the\ element\ formerly\ at\ the\ specified\ position\ \n
+comment7.params=obj
+comment7.target=boolean\ add(java.lang.Object)
+comment7.text=\n\ Appends\ obj\ to\ the\ end\ of\ the\ list\ \n\ @param\ obj\ the\ value\ we\ want\ to\ add\ to\ the\ list\ \n\ @return\ true\ \n
+comment8.params=index
+comment8.target=java.lang.Object\ remove(int)
+comment8.text=\n\ Removes\ element\ from\ position\ index,\ moving\ elements\ at\ position\n\ index\ +\ 1\ and\ higher\ to\ the\ left\ and\ adjusts\ size\ \n\ @param\ index\ the\ index\ where\ we\ want\ to\ remove\ the\ element\ from\ \n\ @return\ the\ element\ formerly\ at\ the\ specified\ position\ \n
+comment9.params=
+comment9.target=java.util.Iterator\ iterator()
+comment9.text=\n\ The\ iterator\ for\ the\ MyArrayList<E>\ class\ \n\ @return\ the\ MyListInterator\n
+numComments=11

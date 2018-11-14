@@ -1,0 +1,55 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MyLinkedList()
+comment0.text=\n\ Constructor\ for\ the\ MyLinkedList<E>\ class\ \n\ \n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment10.params=index\ obj
+comment10.target=void\ add(int,\ java.lang.Object)
+comment10.text=\n\ Inserts\ obj\ at\ position\ index,\ moving\ elements\ at\ position\ index\n\ and\ higher\ to\ the\ right\ and\ adjusts\ size\n\ @precondition\ 0\ <\=\ index\ <\=\ size\n\ @param\ index\ the\ index\ where\ we\ want\ to\ add\ the\ node\ to\ \n\ @param\ obj\ the\ node\ we\ want\ to\ add\ to\ the\ list\ \n\ \n
+comment11.params=obj
+comment11.target=void\ addFirst(java.lang.Object)
+comment11.text=\n\ Adds\ a\ node\ to\ the\ first\ position\ of\ the\ list\n\ @param\ obj\ the\ node\ we\ want\ to\ add\ to\ the\ list\ \n\ \n
+comment12.params=obj
+comment12.target=void\ addLast(java.lang.Object)
+comment12.text=\n\ Adds\ a\ node\ to\ the\ last\ position\ of\ the\ list\ \ \n\ @param\ obj\ the\ node\ we\ want\ to\ add\ to\ the\ list\ \n\ \n
+comment13.params=
+comment13.target=java.lang.Object\ getFirst()
+comment13.text=\n\ Gets\ the\ first\ node\ of\ the\ list\ \n\ @return\ first\ \n\ \n
+comment14.params=
+comment14.target=java.lang.Object\ getLast()
+comment14.text=\n\ Gets\ the\ last\ node\ of\ the\ list\ \n\ @return\ last\ \n\ \n
+comment15.params=
+comment15.target=java.lang.Object\ removeFirst()
+comment15.text=\n\ Removes\ the\ first\ node\ of\ the\ list\n\ @return\ the\ value\ of\ the\ node\ just\ removed\ \n\ \n
+comment16.params=
+comment16.target=java.lang.Object\ removeLast()
+comment16.text=\n\ Removes\ the\ last\ node\ of\ the\ list\n\ @return\ the\ value\ of\ the\ node\ just\ removed\ \n\ \n
+comment17.params=
+comment17.target=java.util.Iterator\ iterator()
+comment17.text=\n\ The\ iterator\ for\ the\ MyLinkedList<E>\ class\n\ @return\ MyLinkedListIterator\ \n\ \n
+comment2.params=index
+comment2.target=DoubleNode\ getNodeFromFirst(int)
+comment2.text=\n\ Starting\ from\ first,\ returns\ the\ node\ with\ the\ given\ index\ \n\ @precondition\ 0\ <\=\ index\ <\=\ size/2\n\ @param\ index\ the\ index\ where\ we\ want\ to\ get\ the\ node\ \n\ @return\ the\ node\ at\ the\ given\ index\ \n\ \n
+comment3.params=index
+comment3.target=DoubleNode\ getNodeFromLast(int)
+comment3.text=\n\ Starting\ from\ last,\ returns\ the\ node\ with\ the\ given\ index\n\ @precondition\ 0\ <\=\ index\ <\=\ size/2\n\ @param\ index\ the\ index\ where\ we\ want\ to\ get\ the\ node\ \n\ @return\ the\ node\ at\ the\ given\ index\ \n\ \n
+comment4.params=index
+comment4.target=DoubleNode\ getNode(int)
+comment4.text=\n\ Starts\ from\ first\ or\ last\ (depending\ on\ which\ is\ closer),\ returns\ the\ node\ with\ the\ given\ index\ \n\ @param\ index\ the\ index\ where\ we\ want\ to\ get\ the\ node\n\ @return\ the\ node\ at\ the\ given\ index\ \n\ \n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\n\ Returns\ the\ size\ of\ the\ list\ \n\ @return\ size\ \n\ \n
+comment6.params=index
+comment6.target=java.lang.Object\ get(int)
+comment6.text=\n\ Retrieves\ the\ value\ of\ the\ node\ at\ the\ specified\ index\n\ @param\ index\ the\ index\ where\ we\ want\ to\ find\ the\ value\ of\ the\ node\n\ @return\ the\ value\ of\ the\ node\ at\ index\ \n\ \n
+comment7.params=index\ obj
+comment7.target=java.lang.Object\ set(int,\ java.lang.Object)
+comment7.text=\n\ Replaces\ the\ element\ at\ position\ index\ with\ obj\n\ @param\ index\ the\ index\ where\ we\ want\ to\ find\ the\ node\n\ @param\ obj\ the\ new\ value\ we\ want\ to\ replace\ with\ the\ old\ value\n\ @return\ the\ element\ formerly\ at\ the\ specified\ position\n\ \n
+comment8.params=obj
+comment8.target=boolean\ add(java.lang.Object)
+comment8.text=\n\ Appends\ obj\ to\ the\ end\ of\ the\ list\n\ @param\ obj\ the\ node\ we\ want\ to\ add\ to\ the\ list\ \n\ @return\ true\ \n\ \n
+comment9.params=index
+comment9.target=java.lang.Object\ remove(int)
+comment9.text=\n\ Removes\ element\ from\ position\ index,\ moving\ elements\ at\ position\n\ index\ +\ 1\ and\ higher\ to\ the\ left\ and\ adjusts\ size\n\ @param\ index\ the\ index\ where\ we\ want\ to\ remove\ the\ node\ \n\ @return\ the\ element\ formerly\ at\ the\ specified\ position\n\ \n
+numComments=18
